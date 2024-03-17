@@ -8,14 +8,13 @@ import ChatIcon from "@mui/icons-material/Chat";
 import FavouriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import MenuIcon from "@mui/icons-material/Menu";
-import { FavoriteBorder } from "@mui/icons-material";
 
 const Sidenav = () => {
   return (
     <div className="sidenav">
       <img
         className="sidenav__logo"
-        src="https://www.pngkey.com/png/detail/1-13459_instagram-font-logo-white-png-instagram-white-text.png"
+        src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"
         alt=""
       />
       <div className="sidenav__buttons">

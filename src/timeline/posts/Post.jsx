@@ -12,14 +12,14 @@ const Post = ({user, postImage, likes, timestamp}) => {
     <div className="post">
       <div className="post__header">
         <div className="post__headerAuth">
-        <Avatar>{user.charAt(0).toUppercase}</Avatar>
+        <Avatar>{user.charAt(0).toUpperCase()}</Avatar>
         {user} · <span>{timestamp}</span>
         </div>
         
         <MoreHorizIcon />
       </div>
       <div className="post__image">
-        <img src="https://images.ctfassets.net/hrltx12pl8hq/a2hkMAaruSQ8haQZ4rBL9/8ff4a6f289b9ca3f4e6474f29793a74a/nature-image-for-website.jpg?fit=fill&w=600&h=400" alt="" />
+        <img src={postImage} alt="" />
       </div>
       <div className="post__footer">
         <div className="post__footerIcons">
@@ -32,7 +32,7 @@ const Post = ({user, postImage, likes, timestamp}) => {
                 <BookmarkBorderIcon className="postIcon" />
             </div>
         </div>
-        Liked by 128 People.
+        Liked by {likes} People.
       </div>
     </div>
   );
